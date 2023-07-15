@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+/* section 1 */
+.header-div {
+  display: flex;
+  align-items: center;
+  margin: 40px auto;
+  width: 90%;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+/* section 2 */
+.hero-container {
+  display: flex;
+  align-items: center;
+  margin: 40px auto;
+  width: 90%;
+  justify-content: space-between;
+}
+.productive p{
+  margin-top: 40px;
+}
+.hero-container img {
+  width: 90%;
+}
+.files {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.files h2 {
+  line-height: 1.4;
+  font-size: 30px;
+}
+.files p {
+  line-height: 1.2;
+  font-size: 20px;
+}
+.email {
+  margin-top: 20px;
+}
+.email input {
+  padding: 10px;
+  width: 50%;
+}
+.email button {
+  margin-left: 5px;
+  padding: 10px;
+  width: 30%;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+/* section 2 */
+.section2 img {
+  width: 100%;
+}
+.main-container {
+  display: flex;
+  margin-left: 30px;
+}
+.productive {
+  background-color: ghostwhite;
+  width: 100%;
+}
+.see-fylo{
+  width: 50%;
+  background-color: white;
+}
+.see-fylo img {
+  margin-top: 90px;
+  width: 100px;
+}
+.productive p {
+  line-height: 1.2;
+}
+/* section 3 */
+.container {
+  background-color: hsl(238, 22%, 44%);
+  padding: 70px;
+  margin-top: 20px;
+}
+.access {
+  display: flex;
+}
+.access h2 {
+  color: white;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.access p {
+  color: white;
+  margin-top: 20px;
+}
+.access input {
+  padding: 10px;
+  width: 102%;
+  margin-left: 80%;
+  margin-top: 50px;
+}
+.access button {
+  width: 60%;
+  margin-left:80% ;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  color: white;
+}
+/* section 4 */
+.footer-div {
+  display: flex;
+  background-color: hsl(243, 82%, 13%);
+  padding: 100px;
+}
+.footer-image img {
+  margin-left: 2px;
+}
+.footer-image p {
+  color: white;
+  line-height: 2;
+}
+.active-div{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto;
+  line-height: 1.8;
+}
+.active-div a{
+  text-decoration-line: none;
+  color: white;
+  line-height: 1.5;
+}
+
+@media (max-width:768px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }  
+  .files {
+    margin: auto;
+    text-align: center;
+  } 
+  .files p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: lightgrey;
+  }   
+  .email {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }  
+  .email input{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .email button{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .main-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 30px;
+  }  
+  .access {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+  }  
+  .access button{
+    width: 100%;
+    margin-right: 200px;
+  }
+  .access input {
+    margin: auto;
+  }  
+  .main-container a{
+    margin-left: 230px;
+    color: green;
+  }
+  .see-fylo{
+    margin-left: 130px;
+  }
+}
